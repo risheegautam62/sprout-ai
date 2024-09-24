@@ -485,7 +485,14 @@ nav ul li a.active + nav ul li::after {
 .learn-more-btn:hover {
   background-color: rgb(5, 110, 102);
 }
-
+.cart-icons2 {
+  
+  display: block;
+  width: 56px;
+    margin-top: -9px;
+    margin-bottom: -20px;
+    margin-left: 270px;
+}
 @media screen and (max-width: 768px) {
 
   @media screen and (max-width: 768px) {
@@ -554,12 +561,12 @@ nav ul li a.active + nav ul li::after {
   margin-top: 26px;
 }
 .cart-icons2 {
-  margin: 22px auto;
+  
   display: block;
-  padding-left: 7px;
-  margin-left: 14pc;
-  /* margin-bottom: -8px; */
-  margin-top: 36px;
+  width: 56px;
+    margin-top: -9px;
+    margin-bottom: -20px;
+    margin-left: 270px;
 }
 
   .button-container {
@@ -844,7 +851,7 @@ nav ul li a.active + nav ul li::after {
 }
 
 .testimonial-section::before {
-  background: url("image/Screenshot_79-3.png") no-repeat;
+  background: url("image/Screenshot_79-3.webp") no-repeat;
   width: 150px;
   height: 150px;
   top: 0;
@@ -852,7 +859,7 @@ nav ul li a.active + nav ul li::after {
 }
 
 .testimonial-section::after {
-  background: url("image/Screenshot_79-4.png") no-repeat;
+  background: url("image/Screenshot_79-4.webp") no-repeat;
   width: 150px;
   height: 150px;
   bottom: -63px;
@@ -896,9 +903,10 @@ nav ul li a.active + nav ul li::after {
   height: 8px;
   background-color: rgba(0, 184, 169, 1);
   z-index: 0;
-  width: 72.5%;
-  margin-left: 210px;
+  width: 60.5%;
+  margin-left: 352px;
 }
+
 
 .process-card {
   background-color: rgba(255, 208, 75, 1);
@@ -1211,7 +1219,7 @@ margin-bottom: 50px;
 }
 
 .blog-slider::before {
-  background: url("image/Screenshot_79-3.png") no-repeat;
+  background: url("image/Screenshot_79-3.webp") no-repeat;
   width: 150px;
   height: 150px;
   top: 0;
@@ -1219,7 +1227,7 @@ margin-bottom: 50px;
 }
 
 .blog-slider::after {
-  background: url("image/Screenshot_79-4.png") no-repeat;
+  background: url("image/Screenshot_79-4.webp") no-repeat;
   width: 150px;
   height: 150px;
   bottom: -63px;
@@ -1329,7 +1337,7 @@ margin-bottom: 50px;
 }
 
 .contactSection::before {
-  background: url("image/Screenshot_79-3.png") no-repeat;
+  background: url("image/Screenshot_79-3.webp") no-repeat;
   width: 150px;
   height: 150px;
   top: 0;
@@ -1337,7 +1345,7 @@ margin-bottom: 50px;
 }
 
 .contactSection::after {
-  background: url("image/Screenshot_79-4.png") no-repeat;
+  background: url("image/Screenshot_79-4.webp") no-repeat;
   width: 150px;
   height: 150px;
   bottom: -63px;
