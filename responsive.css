@@ -1,0 +1,463 @@
+@media screen and (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .cta {
+    display: none;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+    margin-left: -90px;
+  }
+
+  .sidebar {
+    width: 80%;
+    right: -100%;
+    transition: 0.5s;
+  }
+
+  .sidebar.open {
+    right: 0;
+  }
+
+  .sidebar ul {
+    padding-left: 20px;
+  }
+
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .content h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image {
+    margin-top: 20px;
+    margin-right: 0px !important;
+  }
+
+  .image img {
+    max-width: 80%;
+  }
+
+  .About-us-image-container-img {
+    width: 80%;
+  }
+
+  content h1 {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+  }
+
+
+  .delivers-section h2 {
+    font-size: 24px;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card,
+  .card4,
+  .card5 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .health-section {
+    padding: 20px 0;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .image-container {
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-container {
+    text-align: center;
+  }
+
+  .text-container h2 {
+    font-size: 28px;
+  }
+
+  .text-container p {
+    font-size: 16px;
+  }
+
+
+  .Property-section {
+    padding: 20px 0;
+  }
+
+  .Property-content-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Property-image-container img {
+    width: 70%;
+    height: auto;
+  }
+
+  .Property-text-container h2 {
+    font-size: 28px;
+  }
+
+  .Property-text-container p {
+    font-size: 16px;
+  }
+
+
+  .testimonial-container {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px !important;
+  }
+
+  .testimonial-quote {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote-img,
+  .quote-img1 {
+    display: none;
+  }
+
+  .quote {
+    font-size: 16px;
+    width: 260px !important;
+  }
+
+  .author {
+    font-size: 14px;
+  }
+
+
+  .works-section {
+    padding: 20px 0;
+  }
+
+  .process-flow {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .process-flow::before {
+    display: none;
+  }
+
+  .process-card {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+  }
+
+  .blog-slider h2 {
+    font-size: 24px;
+  }
+
+
+
+
+  .About-us-section {
+    padding: 20px 0;
+  }
+
+  .About-us-wrapper {
+    flex-direction: column;
+
+  }
+
+
+  .About-us-text-container h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 28px;
+    color: rgba(75, 75, 75, 1);
+    margin-left: -76px;
+  }
+
+  .About-us-text-container h2 {
+    font-size: 28px;
+  }
+
+  .About-us-text-container p {
+    font-size: 16px;
+
+    margin-left: -80px;
+  }
+
+  .Property-image-container img {
+    width: 80%;
+  }
+
+
+  .contactSection {
+    padding: 20px 0;
+  }
+
+  .contentWrapper {
+    padding: 0 20px;
+  }
+
+  .contentWrapper h2 {
+    font-size: 28px;
+  }
+
+  .sectionDescription {
+    font-size: 16px;
+  }
+
+  .ctaButton {
+
+    padding: 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
+
+  .content h1 {
+    padding: 20px;
+    font-size: 38px !important;
+    line-height: 32px;
+  }
+
+  .content p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .buttons .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+
+  .cards-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+
+  .quote {
+    font-size: 14px;
+  }
+
+  .author {
+    font-size: 12px;
+    margin-left: -16px !important;
+  }
+
+
+  .swiper-slide img {
+    max-width: 100%;
+  }
+
+  .view-all button {
+    font-size: 14px;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  .About-us-wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .About-us-image-container {
+    width: 50%;
+  }
+
+  .About-us-text-container {
+    width: 50%;
+  }
+
+  .About-us-buttons {
+    display: flex;
+    justify-content: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .About-us-section {
+    padding: 40px;
+  }
+
+  .About-us-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .Property-content-wrapper {
+    flex-direction: row;
+  }
+
+  .Property-text-container {
+    width: 60%;
+  }
+
+  .Property-image-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Property-section {
+    padding: 40px;
+  }
+
+  .Property-content-wrapper {
+    flex-direction: row;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Property-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Property-image-container img,
+  .Property-text-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Property-text-container {
+    padding: 15px;
+  }
+
+  .Property-text-container h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .Property-text-container p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Property-learn-more-btn {
+    padding: 8px 12px;
+  }
+
+  .Property-img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  Property-image-container-img {
+    width: 80%;
+  }
+
+  .About-us-image-container img {
+    width: 311px !important;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .text-container {
+    flex-basis: 100%;
+  }
+
+  .text-container {
+    padding: 20px;
+  }
+
+  .text-container h2 {
+    font-size: 20px;
+  }
+    .text-container p {
+      font-size: 14px;
+    }
+  }
