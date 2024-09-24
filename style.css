@@ -93,7 +93,7 @@ nav ul li a.active + nav ul li::after {
   font-size: 30px;
   position: fixed;
   top: 25px;
-  right: 10px;
+  right: 30px;
   display: none;
   color: white;
   cursor: pointer;
@@ -548,7 +548,7 @@ nav ul li a.active + nav ul li::after {
     margin: 22px auto;
     display: block;
     padding-left: 7px;
-    margin-left: 14pc;
+    margin-left: 16pc;
     /* margin-bottom: -8px; */
     margin-top: 6px;
 }
@@ -556,7 +556,7 @@ nav ul li a.active + nav ul li::after {
   margin: 22px auto;
   display: block;
   padding-left: 7px;
-  margin-left: 14pc;
+  margin-left: 16pc;
   /* margin-bottom: -8px; */
   margin-top: 26px;
 }
@@ -1100,7 +1100,7 @@ margin-bottom: 50px;
   }
 
   .slider img {
-    margin-left: -32px;
+    margin-left: -12px;
   }
 }
 
