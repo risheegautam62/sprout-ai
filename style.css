@@ -314,11 +314,22 @@ nav ul li a.active + nav ul li::after {
 }
 
 .cards-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 360px);
-  grid-template-rows: repeat(2, 240px);
+  max-width: 1142px;
+  margin: auto;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: minmax(240px, auto); 
   justify-content: center;
   gap: 30px;
+  align-items: start;
+}
+
+.card, .card4, .card5 {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%; 
+  padding: 20px; 
   
 }
 
@@ -341,13 +352,13 @@ nav ul li a.active + nav ul li::after {
 }
 
 .cart-icons {
-  margin-bottom: -45px;
-  margin-left: 17pc;
+  margin-bottom: -19px;
+  margin-left: 16pc;
 }
 
 .cart-icons1 {
-  margin-bottom: -66px;
-  margin-left: 17pc;
+  margin-bottom: -19px;
+  margin-left: 16pc;
 }
 
 .card4 {
@@ -386,6 +397,8 @@ nav ul li a.active + nav ul li::after {
 
 .card-img {
   margin-bottom: 25px;
+  width: 40px;
+    margin-left: 8pc;
 }
 
 .card h3 {
@@ -474,11 +487,25 @@ nav ul li a.active + nav ul li::after {
 }
 
 @media screen and (max-width: 768px) {
-  .cards-wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+  @media screen and (max-width: 768px) {
+    .cards-wrapper {
+      grid-template-columns: 1fr; /* 1 column for smaller screens */
+    }
+  
+    .card, .card4, .card5 {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
   }
+    
+  .card, .card4, .card5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+  }
+  
 
   .card,
   .card4,
@@ -486,7 +513,7 @@ nav ul li a.active + nav ul li::after {
     width: 100%;
     max-width: 360px;
     margin: 20px auto;
-    height: auto;
+    height: 240px;
   }
 
   .card img,
@@ -511,10 +538,29 @@ nav ul li a.active + nav ul li::after {
   }
 
   .cart-icons {
-    margin: 10px auto;
+    margin: 22px auto;
     display: block;
-    margin: -19px 15pc;
-  }
+    padding-left: 7px;
+    margin-left: 14pc;
+    /* margin-bottom: -8px; */
+    margin-top: 6px;
+}
+.cart-icons1 {
+  margin: 22px auto;
+  display: block;
+  padding-left: 7px;
+  margin-left: 14pc;
+  /* margin-bottom: -8px; */
+  margin-top: 26px;
+}
+.cart-icons2 {
+  margin: 22px auto;
+  display: block;
+  padding-left: 7px;
+  margin-left: 14pc;
+  /* margin-bottom: -8px; */
+  margin-top: 36px;
+}
 
   .button-container {
     text-align: center;
@@ -528,7 +574,6 @@ nav ul li a.active + nav ul li::after {
     display: none;
   }
 }
-
 /* second section end  */
 
 /* section third start  */
@@ -1469,7 +1514,7 @@ margin-bottom: 50px;
   }
 
   .subscribeForm button {
-    width: 100%;
+  margin-left: 90px;
   }
 
   .footerBottom {
