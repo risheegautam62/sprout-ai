@@ -1,0 +1,935 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #4B4B4B;
+}
+
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 85px;
+    align-items: center;
+}
+
+
+
+.headerRight ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.headerRight ul{
+    padding-right: 100px;
+}
+
+.headerRight ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+}
+
+.headerRight ul a{
+    padding: 15px 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #00B8A9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.mobile-header {
+    
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: -250px;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    padding: 20px 20px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .mobile-header ul{
+    padding-top: 30px;
+    list-style: none;
+  }
+
+  .mobile-header ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+  }
+  
+  .mobile-header .close-btnn {
+    font-size: 30px;
+    cursor: pointer;
+    color: #616161;
+    width: 20px;
+    height: 20px;
+  }
+
+  #open-btnn{
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    display: none;
+  }
+
+.banner{
+    background-color: #4B4B4B;
+}
+
+.bannerUnder{
+    padding: 45px 0 63px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.bannerLeft{
+    width: 46%;
+    padding: 85px 0 65px 0;
+}
+
+.bannerRight{
+    width: 52.2%;
+    height: 482px;
+    
+}
+
+.bannerRight img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerLeft h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.bannerLeft p{
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFFB2;
+    font-family: "Rubik", sans-serif;
+}
+
+.bannerLeft a{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #FFD04B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+}
+
+.whySproutAi{
+    padding: 100px 0 100px 0;
+}
+
+.whySproutAi h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+
+
+}
+
+.whySproutAiUnder{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+
+
+.feature{
+    position: relative;
+    padding: 30px 18px 36px 18px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    border-left: 3px solid #FFD04B;
+    border-bottom: 3px solid #FFD04B;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.feature::after{
+    content: "";
+    display: inline-block;
+    width: 57px;
+    height: 51px;
+   position: absolute;
+   bottom: 0;
+   right: -11px;
+    background-image: url(./Images/ss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* टेक्स्ट और इमेज के बीच स्पेस */
+    vertical-align: middle;
+  
+  }
+
+.feature h5{
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+}
+
+.feature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+}
+
+.reviews{
+    padding: 15px 0 15px 0;
+    background-color: #FFD04B;
+    position: relative;
+
+}
+
+.reviewsUnder{
+    max-width: 1025px;
+    margin: 0 auto;
+
+}
+
+.reviewLeft{
+    
+    width: 58%;
+    position: relative;
+}
+
+.reviewLeft p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+    
+}
+
+.reviewLeft p::before{
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 42px;
+   position: absolute;
+   top: -25px;
+   left: -2px;
+    background-image: url(Images/aa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* टेक्स्ट और इमेज के बीच स्पेस */
+    vertical-align: middle;
+
+
+    
+  
+  }
+
+  .reviewLeft p::after{
+
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 42px;
+   position: absolute;
+   bottom: -1px;
+   right: 7px;
+  
+   background-image: url(Images/bb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+  
+  }
+
+.reviewRight{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+   
+    width: 35%;
+
+}
+
+.review{
+    padding: 33px 30px;
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.name h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFD04B;
+    font-family: "Rubik", sans-serif;
+
+}
+.name h5 span{
+    color: #00B8A9;
+}
+
+.name p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #C6C5C5;
+    font-family: "Rubik", sans-serif;
+
+}
+
+
+.slider{
+    background-color: #F8FCFF;
+    padding: 100px 0 90px 0;
+    
+}
+.slider h2{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+
+
+}
+
+.designation{
+    padding: 0 15px;
+    position: relative;
+    
+   
+}
+
+.underDesignation{
+    padding: 56px 0 40px 0;
+    border-radius: 5px;
+    
+    text-align: center;
+    border-left: 3px solid #FFD04B;
+    border-bottom: 3px solid #FFD04B;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+.underDesignation::after{
+    content: "";
+    display: inline-block;
+    width: 69px;
+    height: 61px;
+   position: absolute;
+   bottom: 0;
+   right: 5px;
+    background-image: url(./Images/r.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+  
+  }
+
+.designation h5{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+
+}
+
+
+
+.reviewsUnder::before {
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 27px;
+    background-image: url(Images/Screenshot_79-3\ 1\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.reviewsUnder::after {
+    content: "";
+    display: inline-block;
+    width: 108px;
+    height: 58px;
+    position: absolute;
+    bottom: -1px;
+    right: 7px;
+    background-image: url(Images/Screenshot_79-4\ 1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.designation h6{
+    font-size: 14px;
+    padding: 25px 0 50px 0;
+    line-height: 20px;
+    font-weight: 400;
+    color: #C6C5C5;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.designation a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #00B8A9;
+    font-family: "Rubik", sans-serif;
+
+
+}
+
+.slider-revies{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+span.prev-Arrow.slick-arrow{
+    position: absolute;
+    top: 110px;
+    left: -15px;
+    cursor: pointer;
+}
+
+span.next-Arrow.slick-arrow{
+    position: absolute;
+    top: 110px;
+    right: -15px;
+    cursor: pointer;
+
+}
+
+.JoinUs{
+    padding: 50px 0;
+    background-color: #00B8A9;
+    position: relative;
+}
+
+.JoinUs h2{
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#FFFFFF;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.joinUsUnder{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.JoinUs::before{
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 80px;
+   position: absolute;
+   top: 0;
+   left: 27px;
+    background-image: url(./Images/Screenshot_79-3\ 1\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+  
+  }
+
+  .JoinUs::after{
+
+    content: "";
+    display: inline-block;
+    width: 108px;
+    height: 58px;
+   position: absolute;
+   bottom: -1px;
+   right: 7px;
+  
+   background-image: url(./Images/Screenshot_79-4\ 1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+  
+  }
+
+.Processor{
+    width: 23%;
+    text-align: center;
+    padding: 57px 0;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1000;
+
+}
+
+#ProcessorLast::after{
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 139px;
+   position: absolute;
+   top: 10px;
+  right: -89px;
+  
+   background-image: url(./Images/Screenshot_79-6\ 1\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* टेक्स्ट और इमेज के बीच स्पेस */
+    vertical-align: middle;
+    background-position: center;
+  
+  }
+
+  #ProcessorFirst::before{
+    content: "";
+    display: inline-block;
+    width: 94px;
+    height: 139px;
+   position: absolute;
+   top: 10px;
+  left: -94px;
+  
+   background-image: url(./Images/p.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+    background-position: center;
+  
+  }
+
+
+  #ProcessorFirst::after{
+    content: "";
+    height: 8px;
+    display: inline-block;
+    width: 856px;
+    
+   position: absolute;
+   top: 76px;
+  right: -865px;
+  
+   background-image: url(./Images/Rectangle\ 25\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    vertical-align: middle;
+    background-position: center;
+  
+  }
+
+
+
+.Processor h5{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.footerUnder{
+    padding: 70px 0 96px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+.footerAddress p{
+    padding: 30px 0 44px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#4B4B4B;
+    font-family: "Rubik", sans-serif;
+}
+
+.footerContent h6{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFB707;
+    font-family: "Rubik", sans-serif;
+
+
+}
+
+.footerContent p{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #4B4B4B;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.footerContent a{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #00B8A9;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.footerContent input{
+    display: block;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+}
+
+#name{
+    margin: 19px 0 25px 0;
+}
+
+
+
+.footerContent .submitButton{
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: max-content;
+    float: right;
+    
+    padding: 12px 15px;
+    background-color: #00B8A9;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: "Rubik", sans-serif;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+#twitLogo{
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+#LinkedInLogo{
+    cursor: pointer;
+
+}
+.policy{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+   
+}
+
+.policy p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#4B4B4B ;
+    font-family: "Rubik", sans-serif;
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    body h1{
+        font-size: 38px !important;
+        line-height: 50px !important;
+
+    }
+
+    body h2{
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+
+    .feature h5 {
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    body p{
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+
+    body a{
+        line-height: 20px !important;
+        font-size: 14px !important;
+    }
+
+
+    
+
+    
+
+    .bannerLeft a{
+        padding: 7px 12px;
+        gap: 5px;
+    }
+
+    .bannerLeft p{
+        padding: 15px 0;
+    }
+    .bannerUnder{
+        flex-direction: column;
+        padding: 20px 20px 40px 20px;
+    }
+
+    .bannerLeft{
+        width: 100%;
+        padding: 40px 0 40px 0;
+    }
+
+    .bannerRight{
+        width: 100%;
+        height: 266px;
+    }
+
+    .whySproutAi{
+        padding: 40px 0;
+    }
+
+    .whySproutAiUnder{
+        padding: 0 20px;
+    }
+
+    .feature{
+        width: 100%;
+    }
+
+    .review {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .reviewLeft{
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    .reviewRight{
+        width: 100%;
+    }
+
+    .slider{
+        padding: 45px 20px 40px 20px;
+    }
+
+    
+
+    #ProcessorFirst::before{
+        display: none;
+    }
+
+    #ProcessorFirst::after{
+        display: none;
+    }
+
+    #ProcessorLast::after{
+        display: none;
+    }
+
+    .joinUsUnder{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .reviewsUnder{
+        padding: 0 20px;
+    }
+
+    .designation h5{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Processor{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .footerUnder{
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+
+    .footerContent{
+        width: 50%;
+
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    #ProcessorFirst::before{
+        display: none;
+    }
+
+    #ProcessorFirst::after{
+        display: none;
+    }
+
+    #ProcessorLast::after{
+        display: none;
+    }
+
+    .bannerUnder{
+        
+        padding: 20px 20px 40px 20px;
+    }
+
+    .whySproutAiUnder{
+        padding: 0 20px;
+    }
+    .headerTop{
+        padding: 0 20px;
+    }
+
+    .reviewsUnder{
+        padding: 0 20px;
+    }
+    .slider{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .joinUsUnder{
+        padding-left: 20px;
+        padding: 20px;
+    }
+
+    .footerUnder{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .policy{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 945px) {
+    .headerRight ul{
+        display: none;
+    }
+
+    #open-btnn{
+        display: block;
+    }
+}
+
+
+
+
+
